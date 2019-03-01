@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Simplest possible examples of HTML, CSS and JavaScript."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      itemprop="name"
+      content="simpl.info: simplest possible examples of HTML, CSS and JavaScript"
+    />
+    <meta id="theme-color" name="theme-color" content="#fff" />
+
+    <base target="_blank" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Video alpha channel</title>
+  </head>
+  <body>
+    <video id="video1" autoplay src="out.webm" loop muted></video>
+    <div id="container">
+      <video id="gum-local" autoplay playsinline></video>
+    </div>
+    <button id="showVideo">Open camera</button>
+
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
